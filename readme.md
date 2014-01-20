@@ -2,6 +2,10 @@
 
 Ejemplo básico para login usando el framework laravel 4
 
+Tutorial completo:
+
+http://www.cristalab.com/tutoriales/crear-un-login-con-laravel-c112460l/
+
 Instrucciones:
 
 Crear una base de datos.
