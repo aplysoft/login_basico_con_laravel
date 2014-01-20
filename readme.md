@@ -8,10 +8,9 @@ Crear una base de datos.
 
 Cambiar la configuración en app/config/database.php
 
-Ejecutar los siguientes comandos
+Ejecutar los siguientes comandos:
 
-composer install
-
+	composer install
 	php artisan migrate:install
 	php artisan migrate
 	php artisan db:seed
