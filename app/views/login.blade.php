@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Login</title>
-        <link rel="stylesheet" href="/css/bootstrap.css">
+        {{ HTML::style('css/bootstrap.css'); }}
     </head>
     <body>
         <div class="container">
@@ -35,6 +35,6 @@
             </div>
         </div>
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="/js/bootstrap.js"></script>
+        {{ HTML::script('js/bootstrap.js'); }}
     </body>
 </html>

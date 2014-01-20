@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel PHP Framework</title>
-	<link rel="stylesheet" href="/css/bootstrap.css">
+	{{ HTML::style('css/bootstrap.css'); }}
 </head>
 <body>
 	<div class="container">
@@ -11,6 +11,6 @@
 		<a href="/logout">Cerrar sesión.</a>
 	</div>
 	<script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/js/bootstrap.js"></script>
+    {{ HTML::script('js/bootstrap.js'); }}
 </body>
 </html>
